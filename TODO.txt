@@ -1,0 +1,23 @@
+Здравейте колеги това е нашия проект с готово репозитори в гитхъб.
+Свалете си TortoiseSVN: http://sourceforge.net/projects/tortoisesvn/files/1.8.7/Application/TortoiseSVN-1.8.7.25475-x64-svn-1.8.9.msi/download?use_mirror=heanet&r=http%3A%2F%2Ftortoisesvn.net%2Fdownloads.html&use_mirror=heanet
+Направете папка: HTML-CSS-TeamWork
+Синхронизирай с SVN: https://github.com/kasskata/HTML-CSS-TeamWork.git
+Работете спокойно по проекта !!!
+
+Концепция на сайта: Забавен сайт на тема"Rejected candidates for SoftUni"(пример: Спиндерман,Тъмнин,Джорджано,Борис Дали etc.)
+
+
+TОDО:
+01.Разпределяне на роли в отбора! IMPORTANT!
+
+аа.Работа по HTML страниците. Работата трябва да се събира в 2-3 дена максимум.
+бб.Правене на общ Стил за всички страници.Трудната,енергоемка работа.3-4 дена може и повече.
+вв.Обработка на презентация и Защита на проекта(за сега kasskata).
+...
+
+Добри идеи:
+Радио "Rejected from SoftUni system";
+Галерия "Rejected in class".
+Видео??
+Резултати от изпита;
+...
