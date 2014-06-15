@@ -1,36 +1,40 @@
 body{
     font-family:Calibri;
-    font-size:18px;
+    font-size:15px;
     color:white;
     font-weight:bold;
 }
-
 table tr td{
     background-color: #234465;
-    height: 40px;
     color: #ffffff;
-    font-size: 20px;
     font-weight: bold;
 }
 
 table{
+    height:70px;
+    padding-top:10px;
+    height:10px;
     background-color: #234465;
     width: 100%;
-    padding-right: 100px;
+    padding-right:50px;
     position: absolute;
     left: 0px;
     top: 0px;
 }
 
+form{
+    height:27px !important;
+    width:263px !important;
+}
 td{
     text-decoration-color: #ffffff;
-    padding: 8px;
+    padding: 4px;
     text-align: center;
 }
 
 #softUniLogo{
-    padding-left: 100px;
-    padding-right: 20px;
+    padding-left: 99px;
+    padding-top: 1px;
 }
 
 #notification{
@@ -40,15 +44,21 @@ td{
 }
 
 table tr td form input:first-child {
-    height:27px;
-    border-top-left-radius:10px;
-    border-bottom-left-radius:10px;
+    height:30px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
     text-align:left;
+    border: none;
+    width:230px;
 }
 
-#searchButon{
+#searchButon {
     text-align: left;
     vertical-align: middle;
+    position: relative;
+    bottom: 0px;
+    right: 4px;
+    border: none;
 }
 
 .Courses{
@@ -60,6 +70,7 @@ table tr td form input:first-child {
 
 .Courses:hover{
     color: #ffffff;
+    border-bottom-left-radius:5px;
 }
 
 /*navigation*/
@@ -77,8 +88,9 @@ table tr td nav ul li ul a {
 table tr td nav ul li {
     list-style-type:none;
     display:inline-block;
-    margin-left:20px;
+    margin:5px;
     vertical-align:middle;
+
 }
 
 table tr td nav ul li a {
@@ -97,8 +109,6 @@ table tr td nav ul li:hover > a + ul {
     display: block;
 }
 
-
-
 table tr td nav ul li ul.sub-nav-list {
     position: absolute;
     margin-top:8px;
@@ -110,14 +120,16 @@ table tr td nav ul li ul.sub-nav-list {
     text-align:left;
 }
 
-table tr td nav ul li ul.sub-nav-list li:hover {
-    display:inline-block;
-    vertical-align:top;
-    width:100%;
-    background:#ff9c00;
-    display: block;
-}
-
+    table tr td nav ul li ul.sub-nav-list li:hover {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        background: #ff9c00;
+    }
+    table tr td nav ul li ul.sub-nav-list li:hover:last-child{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 
 table tr td nav ul li ul li {
     float: none;
@@ -140,7 +152,7 @@ table tr td nav ul li ul li a {
 table tr td nav ul li ul li a.sub-menu {
     font-weight:bold;
     color:#43a0db;
-    font-size:18px;
+    font-size:10px;
 }
 
 table tr td nav ul li ul li:hover a.sub-menu {
@@ -148,7 +160,6 @@ table tr td nav ul li ul li:hover a.sub-menu {
 }
 
 table tr td nav ul li ul li:hover > a {
-    display: block;
     text-decoration: none;
     background:none;
 }
