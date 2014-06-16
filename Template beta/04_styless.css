@@ -56,7 +56,7 @@ table tr td form input:first-child {
     text-align: left;
     vertical-align: middle;
     position: relative;
-    bottom: 0px;
+    bottom: 0.2px;
     right: 4px;
     border: none;
 }
@@ -78,7 +78,8 @@ table tr td form input:first-child {
 table tr td nav ul {
     text-align:right;
     -webkit-padding-start: 0px;
-    padding: 0px;
+    padding: 0;
+	margin-right: 110px;
 }
 
 table tr td nav ul li ul a {
