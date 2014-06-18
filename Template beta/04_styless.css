@@ -28,7 +28,7 @@ form{
 }
 td{
     text-decoration-color: #ffffff;
-    padding: 4px;
+    padding-top: 0px;
     text-align: center;
 }
 
@@ -50,15 +50,15 @@ table tr td form input:first-child {
     text-align:left;
     border: none;
     width:230px;
+    margin-top:0px;
+    margin-bottom:11px;
 }
 
 #searchButon {
     text-align: left;
-    vertical-align: middle;
-    position: relative;
-    bottom: 0.2px;
-    right: 4px;
+    margin-top:-11px;
     border: none;
+    vertical-align:-11px;
 }
 
 .Courses{
@@ -163,6 +163,7 @@ table tr td nav ul li ul li:hover a.sub-menu {
 table tr td nav ul li ul li:hover > a {
     text-decoration: none;
     background:none;
+    width:100%;
 }
 
 
