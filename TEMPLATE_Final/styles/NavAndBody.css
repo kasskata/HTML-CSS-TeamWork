@@ -69,6 +69,7 @@ table tr td form input:first-child {
     width:230px;
     margin-top:0px;
     margin-bottom:11px;
+    outline:none;
 }
 
 #searchButon {
