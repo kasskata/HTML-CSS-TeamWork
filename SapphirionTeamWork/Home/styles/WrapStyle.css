@@ -1,0 +1,20 @@
+main {
+    background-color: #eeeeee;
+    color: #5a5a5a;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    z-index: -2;
+    border-bottom-left-radius: 80px;
+    padding: 180px 30px 30px 30px;
+    background-image:url('Header.jpg');
+}
+.wrapper{
+    position:absolute;
+    left:0;
+    top:0;
+    background-image:url('https://softuni.bg/Content/design/3.jpg');
+    background-repeat:repeat-x;
+    height:200px;
+    width:100%;
+}
