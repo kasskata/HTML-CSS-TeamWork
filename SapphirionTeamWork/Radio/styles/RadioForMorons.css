@@ -1,0 +1,74 @@
+﻿body section {
+  background-image: url('../images/BeatsByDreSoloLogo.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 99%;
+  align-items: center;
+  background-color: #234465;
+  border-color: yellow;
+  border-radius: 60px;
+  -webkit-animation: Hypnoza 20s both infinite;
+  /* Chrome, Safari, Opera */
+  animation: Hypnoza 20s both infinite; }
+  body section audio, body section h1, body section h3 {
+    position: relative;
+    left: 30%; }
+
+@-webkit-keyframes Hypnoza {
+  0% {
+    background-color: red; }
+
+  15% {
+    background-color: yellow; }
+
+  20% {
+    background-color: blue; }
+
+  25% {
+    background-color: green; }
+
+  30% {
+    background-color: #ff6a00; }
+
+  35% {
+    background-color: #a4e813; }
+
+  40% {
+    background-color: #9f0707; }
+
+  45% {
+    background-color: #b64e04; }
+
+  50% {
+    background-color: #fb0aac; }
+
+  55% {
+    background-color: #b1860e; }
+
+  60% {
+    background-color: #ac13a4; }
+
+  65% {
+    background-color: #8051cc; }
+
+  70% {
+    background-color: #d40e6f; }
+
+  75% {
+    background-color: #07f313; }
+
+  80% {
+    background-color: #e56c68; }
+
+  85% {
+    background-color: #43ed9f; }
+
+  90% {
+    background-color: #ff0008; }
+
+  100% {
+    background-color: #f21623; } }
+
+/*# sourceMappingURL=RadioForMorons.css.map */

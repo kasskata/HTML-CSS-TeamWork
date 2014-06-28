@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "GameMainStyle.css",
+  "sources": [
+    "GameMainStyle.scss"
+  ],
+  "names": [],
+  "mappings": "AACA,KAAK,SAAS;EAEF,OAAM;EACN,QAAO;EACP,QAAO;EACP,eAAc;EACd,aAAY;EAAxB,KAAK,SAAS,QAAQ;IAEN,QAAO;IACP,cAAa;IACb,aAAY;IACZ,gBAAe;IACf,QAAO;IACP,WAAU;IACV,YAAW;IAA3B,KAAK,SAAS,QAAQ,EAAE;MAEL,kBAAiB;MACjB,OAAM;MACN,wBAAuB;MACvB,yBAAwB"
+}
