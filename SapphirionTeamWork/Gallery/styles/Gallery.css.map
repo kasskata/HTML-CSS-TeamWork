@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "Gallery.css",
+  "sources": [
+    "Gallery.scss"
+  ],
+  "names": [],
+  "mappings": "AACA,KAAK,SAAS;EAEF,UAAS;EACT,SAAQ;EACR,WAAU;EAAtB,KAAK,SAAS,QAAQ;IAEN,OAAM;IACN,QAAO;IACP,QAAO"
+}
