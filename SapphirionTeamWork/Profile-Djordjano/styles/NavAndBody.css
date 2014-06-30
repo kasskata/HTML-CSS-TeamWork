@@ -1,0 +1,189 @@
+body{
+    z-index:-1;
+    font-family:Calibri;
+    font-size:15px;
+    font-weight:bold;
+    background: -moz-linear-gradient(left,  #234465 0%, #234465 49%, #eeeeee 49%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#234465), color-stop(49%,#234465), color-stop(49%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #234465 0%,#234465 49%,#eeeeee 49%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #234465 0%,#234465 49%,#eeeeee 49%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #234465 0%,#234465 49%,#eeeeee 49%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to right,  #234465 0%,#234465 49%,#eeeeee 49%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#234465', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 */    
+}
+.headerImg{
+    position:absolute;
+    left:0;
+    top:0;
+    background-image:url('Header.jpg');
+    background-repeat:repeat-x;
+    height:200px;
+    width:100%;
+}
+table tr td{
+    background-color: #234465;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table{
+    height:70px;
+    padding-top:10px;
+    height:10px;
+    background-color: #234465;
+    width: 100%;
+    padding-right:50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
+
+form{
+    height:27px !important;
+    width:263px !important;
+}
+td{
+    text-decoration-color: #ffffff;
+    padding-top: 0px;
+    text-align: center;
+}
+
+#softUniLogo{
+    padding-left: 99px;
+    padding-top: 1px;
+}
+
+#notification{
+    float: right;
+    vertical-align: middle;
+
+}
+
+table tr td form input:first-child {
+    height:30px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    text-align:left;
+    border: none;
+    width:230px;
+    margin-top:0px;
+    margin-bottom:11px;
+    outline:none;
+}
+
+#searchButon {
+    text-align: left;
+    margin-top:-11px;
+    border: none;
+    vertical-align:-11px;
+}
+
+.Courses{
+
+    font-weight: bold;
+    color:#3BA0DB;
+    margin-left: 0px;
+}
+
+.Courses:hover{
+    color: #ffffff;
+    border-bottom-left-radius:5px;
+}
+
+/*navigation*/
+
+table tr td nav ul {
+    text-align:right;
+    -webkit-padding-start: 0px;
+    padding: 0;
+	margin-right: 110px;
+}
+
+table tr td nav ul li ul a {
+    font-size:16px;
+}
+
+table tr td nav ul li {
+    list-style-type:none;
+    display:inline-block;
+    margin:5px;
+    vertical-align:middle;
+
+}
+
+table tr td nav ul li a {
+    text-decoration:none;
+    color:white;
+    padding:8px;
+}
+
+table tr td nav ul li:hover > a {
+    text-decoration: none;
+    background-color: #4ca0db;
+    border-radius:5px;
+}
+
+table tr td nav ul li:hover > a + ul {
+    display: block;
+}
+
+table tr td nav ul li ul.sub-nav-list {
+    position: absolute;
+    margin-top:8px;
+    display: none;
+    background-color: #1d3955;
+    width:350px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    text-align:left;
+}
+
+    table tr td nav ul li ul.sub-nav-list li:hover {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        background: #ff9c00;
+    }
+    table tr td nav ul li ul.sub-nav-list li:hover:last-child{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+table tr td nav ul li ul li {
+    float: none;
+    margin:0px;
+    padding-top:10px;
+    padding-bottom:8px;
+    border-bottom: 1px solid #435f7b;
+    display: block;
+}
+
+table tr td nav ul li ul li:last-child {
+    border-bottom:none;
+}
+
+table tr td nav ul li ul li a {
+    margin-left:10px;
+    font-weight:normal;
+}
+
+table tr td nav ul li ul li a.sub-menu {
+    font-weight:bold;
+    color:#43a0db;
+    font-size:10px;
+}
+
+table tr td nav ul li ul li:hover a.sub-menu {
+    color:white;
+}
+
+table tr td nav ul li ul li:hover > a {
+    text-decoration: none;
+    background:none;
+    width:100%;
+}
+
+
+
+
