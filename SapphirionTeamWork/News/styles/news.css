@@ -1,0 +1,48 @@
+main.content div.news-wrapper{
+    margin: 20px auto;
+    width: 83%;
+}
+
+div.news-wrapper section article{
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px gray;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+div.news-wrapper section article:last-child{
+    margin-right: 0;
+}
+
+div.news-wrapper section div.section-title{
+    display: block;
+    width: 100%;
+}
+
+div.section-title{
+    color: #234465;
+    font-size: 1.5em;
+}
+
+div.news-wrapper section article header{
+    display: block;
+    text-align: left;
+}
+
+div.news-wrapper section article header h1{
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #1d3955;
+}
+
+div.published-by{
+    text-align: left;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    line-height: 30px;
+}
